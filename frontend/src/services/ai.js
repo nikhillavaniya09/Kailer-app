@@ -54,7 +54,7 @@ export const generateStoryForgeActOne = async (world, protagonist, hook) => {
     return result.response.text();
   } catch (error) {
     console.error("Story Forge Error:", error);
-    return "Error: Connection lost.";
+    return "Story Forge malfunctioned and the tale was lost in the void.";
   }
 };
 
@@ -74,7 +74,7 @@ export const generateStoryForgeActThree = async (previousStory, chosenOption) =>
     return result.response.text();
   } catch (error) {
     console.error("Act 3 Error:", error);
-    return "Error: The ending was lost in the void.";
+    return "The ending was lost in the void. Tragic!";
   }
 };
 
@@ -117,7 +117,7 @@ export const generateMultiverseReality = async (anchor, divergence, path, tone, 
     return result.response.text();
   } catch (error) {
     console.error("Multiverse Error:", error);
-    return "Error: The multiverse timeline collapsed.";
+    return "The multiverse collapsed and the reality was lost.";
   }
 };
 
@@ -173,6 +173,6 @@ export const generateVibeCheck = async (format, energy, atmospheres, timeCommitm
     return result.response.text();
   } catch (error) {
     console.error("Vibe Check Error:", error);
-    return "Error: Could not analyze the vibe.";
+    return "The vibe was lost in the ether. Try again later.";
   }
 };
