@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+/* Custom fonts for 'KAILER' (teal) and the quotes */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Playfair+Display:ital,wght@1,400&family=Sarabun:wght@300&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Sarabun', sans-serif;
+  background-color: #ffffff;
+}
+
+/* Specific styling for the Kailer logo */
+.h1-teal {
+  font-family: 'Montserrat', sans-serif;
+  color: #0ff; /* Teal */
+  filter: drop-shadow(0 0 10px rgba(0, 255, 255, 0.6));
+  text-transform: uppercase;
+}
