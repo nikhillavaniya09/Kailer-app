@@ -224,7 +224,7 @@ const MusicMenu = ({ isActive, savedItems = [], onSave }) => {
         </div>
 
         {/* no-scrollbar! */}
-        <div className="flex-1 overflow-y-auto transform-gpu overscroll-containp-4 no-scrollbar">
+        <div className="flex-1 overflow-y-auto transform-gpu overscroll-contain p-4 no-scrollbar">
           
           {sidebarTab === 'queue' && (
             <div className="flex flex-col gap-3">
